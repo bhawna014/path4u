@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function fetchJobs() {
         const appId = 'a08a8501'; // Replace with your Adzuna App ID
         const appKey = 'e32571c0af674307373f26c0b26d6639'; // Replace with your Adzuna App Key
-        const url = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${a08a8501}&app_key=${e32571c0af674307373f26c0b26d6639}&results_per_page=10&what=software%20developer&where=new%20york`;
+        const url = `        const url = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=a08a8501&app_key=e32571c0af674307373f26c0b26d6639&results_per_page=10&what=software%20developer&where=new%20york`;
 
         fetch(url)
             .then(response => response.json())
